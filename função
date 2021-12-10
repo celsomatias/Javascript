@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function pessoaFunction()
+            {
+                let nome= "Celso Matias";
+                let celular= "939571622";
+                let bairro= "São José";
+                document.write("Nome: " + nome + "<br>Celular: " + celular + "<br>Bairro: " + bairro);
+            }
+        </script>
+    </head>
+    <body style="text-align: center;">
+        <h2>Função Pessoa</h2>
+        <p style="color: cornflowerblue;">Executando função pessoa alocada na tag head</p>
+        <script>
+            pessoaFunction();
+        </script>
+    </body>
+</html>
